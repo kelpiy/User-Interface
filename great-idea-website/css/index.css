@@ -60,7 +60,219 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+
+/* Nav links & 'Gread Idea' logo */
+header {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	background: linear-gradient(45deg, springgreen, royalblue);
+  	position: fixed; 
+	top: 0; 
+}
+
+nav {
+	display: inline-block;
+	width: 70%;
+	text-decoration none;
+	color: gray;
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-right: 45px;
+}
+
+
+/* Circular img, text & button */
+
+.intro-content {
+	display: inline-block;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	margin: 130px 20px 20px 90px;
+
+}
+
+.left-side {
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 50px;
+}
+
+button {
+	color: black;
+	width: 180px;
+	height: 30px;
+	border: solid black 1px;
+  	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 30px;
+}
+
+.text-content1 {
+	display: inline-block;
+	border-top: solid black 2px;
+	margin-top: 70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.text-content1 div {
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+	width: 48%;
+}
+
+.text-content2 {
+	display: inline-block;
+	border-bottom: solid black 2px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 20px;
+}
+
+.text-content2 div {
+	display: inline-block;
+	width: 31%;
+	margin: 0px 5px 0px 5px;
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+footer {
+	display: inline-block;
+	margin: 50px 20px 20px 20px;
+	width: 100%;
+}
+
+footer div {
+	margin: 0px 0px 25px 0px;
+}
+
+.copyright {
+	display: inline-block;
+	margin: 20px 20px 100px 350px;
+} */
+
+
+/* Layout using flexbox */
+/* 
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+nav {
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	text-decoration none;
+	color: gray;
+	margin-top: 60px;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+button {
+	color: black;
+	width: 180px;
+	height: 30px;
+	border: solid black 1px;
+  	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 30px;
+}
+
+.intro-content {
+	display: flex;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	justify-content: flex-end;
+	margin: 70px 20px 0px 20px;
+
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 50px;
+}
+
+.text-content1 {
+	display: flex;
+	border-top: solid black 2px;
+	margin-top: 70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.text-content1 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0px 5px 0px 5px;
+}
+
+.text-content2 {
+	display: flex;
+	border-bottom: solid black 2px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.text-content2 div {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	margin: 0px 5px 0px 5px;
+}
+
+.middle-img {
+	display: flex;
+	margin: 0px 20px 0px 20px;
+	justify-content: flex-end;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 20px 20px 20px;
+}
+
+footer div {
+	margin: 0px 0px 25px 0px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin: 20px 20px 100px 20px;
+} */
